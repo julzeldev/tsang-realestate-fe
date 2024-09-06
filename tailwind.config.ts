@@ -1,3 +1,4 @@
+// https://tailwindcss.com/docs/customizing-colors #colors
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -15,10 +16,14 @@ const config: Config = {
       },
       colors: {
         brand: {
-          primary: '#0891b2', // cyan-600
-          primaryLight: '#06b6d4', // cyan-500
+          primary: '#0284c7', // sky-600
+          primaryLight: '#0ea5e9', // sky-500
           secondary: '#7c3aed', // violet-600
           secondaryLight: '#8b5cf6', // violet-500
+          error: '#dc2626', // red-600
+          errorLight: '#ef4444', // red-500
+          success: '#059669', // emerald-600
+          successLight: '#10b981', // emerald-500
           border: '#d1d5db', // gray-300
           text: {
             primary: '#111827', // gray-900
