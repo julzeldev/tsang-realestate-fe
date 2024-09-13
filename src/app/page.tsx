@@ -6,7 +6,7 @@ import HomeHow from '@/components/home/HomeHow';
 
 export default function Home() {
   return (
-    <div>
+    <div id="home">
       <HomeHero />
       <HomeCards />
       <HomeAbout />

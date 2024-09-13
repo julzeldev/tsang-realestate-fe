@@ -25,13 +25,13 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className='hidden md:flex space-x-10 items-center'>
-            <Link href='#home-hero'>
+            <Link href='#home'>
               <span className='text-gray-700 hover:text-blue-600'>Home</span>
             </Link>
-            <Link href='#home-about'>
+            <Link href='#about'>
               <span className='text-gray-700 hover:text-blue-600'>About</span>
             </Link>
-            <Link href='#home-getStarted'>
+            <Link href='#get-started'>
               <span className='inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium bg-blue-600 text-white hover:bg-blue-700'>
                 Get Started
               </span>

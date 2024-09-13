@@ -5,7 +5,7 @@ import { fadeInVariants, slideFromRightVariants } from '@/util/animations';
 
 const HomeGetStarted: React.FC = () => {
   return (
-    <div className='bg-white p-8 sm:p-16 isolate overflow-hidden' id='home-getStarted'>
+    <div className='bg-white p-8 sm:p-16 isolate overflow-hidden' id='get-started'>
       <div className='relative isolate -z-10'>
         <div>
           <div className='mx-auto max-w-7xl px-6 lg:px-8 py-16'>

@@ -22,7 +22,7 @@ const Content = () => {
 
         {/* CTA Button */}
         <div className='mt-6'>
-          <Link href='#home-getStarted'>
+          <Link href='#get-started'>
             <Button variant='cta' className='px-8 py-4 text-xl'>
               Get Started
             </Button>
